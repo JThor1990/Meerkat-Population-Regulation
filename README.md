@@ -1,9 +1,10 @@
 # Environmental change and population regulation in Kalahari meerkats
 
-The R code and data sets in the repository can be used to replicate the analyses in our paper "_Environmental change and population regulation in Kalahari meerkats_". The aim of the study was to explore the relative impact of variation in rainfall and temperature on the demography and population of meerkats, a cooperatively breeding mongoose that lives in the semi-arid regions of southern Africa. Here is a gratuitous picture of a meerkat from our study population based at the Kuruman River Reserve:  
+The R code and data sets in the repository can be used to replicate the analyses in our paper "_Environmental change and population regulation in Kalahari meerkats_".   
+The aim of the study was to explore the relative impact of variation in rainfall and temperature on the demography and population of meerkats, a cooperatively breeding mongoose that lives in the semi-arid regions of southern Africa. Here is a gratuitous picture of a meerkat from our study population based at the Kuruman River Reserve:  
 
 <figure>
-  <img src="MeerkatOnGuard.JPG" alt="Meerkat on Guard", width="1036", height="712">
+  <img src="MeerkatOnGuard.JPG" alt="Meerkat on Guard", width="518", height="346">
   <figcaption>Meerkat on Guard</figcaption>
 </figure>  
 
