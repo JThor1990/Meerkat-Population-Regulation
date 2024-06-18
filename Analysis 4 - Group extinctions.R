@@ -108,7 +108,8 @@ length(unique(filter(df, Fate == "Current2023")$GroupName))   #
 # Strictly, the post 2012/2013 period includes 2012/2013, the year in which group size and population feel steeply.
   
   # Set up the predictor variable for Pre and post 2012/2013
-  df <- mutate(df, TimePeriod = if_else(Year < 2012, "Pre 2012/2013", "Post 2012/2013"))
+  df <- mutate(df, TimePeriod = factor(if_else(Year < 2012, "Pre 2012/2013", "Post 2012/2013"), 
+                                       levels = c("Pre 2012/2013", "Post 2012/2013")))
 
   # Fir the model 
   m2 <- glmmTMB(Failed ~ TimePeriod + (1|GroupName),
