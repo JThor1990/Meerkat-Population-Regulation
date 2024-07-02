@@ -458,8 +458,8 @@ setwd("INSERT FILE PATH")
   
   # Run Mann-Kendall test for linear trends in the time series
   # Fecundity
-  mk.test(annual_recruitment$mean_fecundity_pergroup) # n.s. (p = 0.76)
-  sens.slope(annual_recruitment$mean_fecundity_pergroup)
+  mk.test(annual_demog$mean_fecundity_pergroup) # n.s. (p = 0.76)
+  sens.slope(annual_demog$mean_fecundity_pergroup)
   # Recruitment 
   mk.test(annual_demog$mean_recruitment_pergroup) # n.s. (p = 16)
   sens.slope(annual_demog$mean_recruitment_pergroup)
