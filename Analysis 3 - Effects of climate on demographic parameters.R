@@ -402,8 +402,7 @@ popchange_m6 <- update(popchange_m1, ~. -lograin_earlysummer_z + spei6_allyear_z
 popchange_m7 <- update(popchange_m1, ~. -lograin_earlysummer_z + spei6_twoyear_z)
 
 # compare models and rank by AIC
-env_terms <- c("null", "rainfall_earlysummer", "rainfall_breedingseason", "rainfall_twoyear",
-               "temp_summer", "temp_allyear", "spei6_allyear", "spei6_twoyear")
+env_terms <- c("null", "rainfall_earlysummer", "rainfall_breedingseason", "rainfall_twoyear", "temp_summer", "temp_allyear", "spei6_allyear", "spei6_twoyear")
 
 popchange_list <- list(popchange_m0, 
                        popchange_m1, popchange_m2, popchange_m3, popchange_m4, popchange_m5,
@@ -2072,7 +2071,7 @@ pr26 <- predict_response(juvsubadultsurv_m4, "MeanGroupSize_z [all]")
   plot26_qq1 <- plot26_qq$data[[1]] 
   plot26_qq2 <- plot26_qq$data[[2]]
   plot26_qq3 <- plot26_qq$data[[3]]
-  val26 <- density_change$MeanGroupSize
+  val26 <- groupsize_change$MeanGroupSize
   plot26_qq1$x <- (plot26_qq1$x*sd(val20))+mean(val26)
   plot26_qq2$x <- (plot26_qq2$x*sd(val20))+mean(val26)
   plot26_qq3$x <- (plot26_qq3$x*sd(val20))+mean(val26)
@@ -2100,7 +2099,7 @@ pr27 <- predict_response(juvsubadultsurv_m4, "temp_summer_z [all]")
   plot27_qq1 <- plot27_qq$data[[1]] 
   plot27_qq2 <- plot27_qq$data[[2]]
   plot27_qq3 <- plot27_qq$data[[3]] 
-  val27 <- density_change$temp_summer
+  val27 <- groupsize_change$temp_summer
   plot27_qq1$x <- (plot27_qq1$x*sd(val27))+mean(val27)
   plot27_qq2$x <- (plot27_qq2$x*sd(val27))+mean(val27)
   plot27_qq3$x <- (plot27_qq3$x*sd(val27))+mean(val27)
@@ -2260,7 +2259,7 @@ pr29 <- predict_response(adultsurv_m4, "MeanGroupSize_z [all]")
   plot29_qq1 <- plot29_qq$data[[1]] 
   plot29_qq2 <- plot29_qq$data[[2]]
   plot29_qq3 <- plot29_qq$data[[3]]
-  val29 <- density_change$MeanGroupSize
+  val29 <- groupsize_change$MeanGroupSize
   plot29_qq1$x <- (plot29_qq1$x*sd(val23))+mean(val29)
   plot29_qq2$x <- (plot29_qq2$x*sd(val23))+mean(val29)
   plot29_qq3$x <- (plot29_qq3$x*sd(val23))+mean(val29)
@@ -2288,7 +2287,7 @@ pr30 <- predict_response(adultsurv_m4, "temp_summer_z [all]")
   plot30_qq1 <- plot30_qq$data[[1]] 
   plot30_qq2 <- plot30_qq$data[[2]]
   plot30_qq3 <- plot30_qq$data[[3]]
-  val30 <- density_change$temp_summer
+  val30 <- groupsize_change$temp_summer
   plot30_qq1$x <- (plot30_qq1$x*sd(val30))+mean(val30)
   plot30_qq2$x <- (plot30_qq2$x*sd(val30))+mean(val30)
   plot30_qq3$x <- (plot30_qq3$x*sd(val30))+mean(val30)
