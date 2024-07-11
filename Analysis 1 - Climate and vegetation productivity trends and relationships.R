@@ -2,9 +2,8 @@
 
 # R Script for "Environmental change and population regulation in Kalahari meerkats"
 
-# ANALYIS 1: CLIMATE AND VEGETATION PRODUCTIVITY TRENDS AND INTER-RELATIONSHIPS
+# ANALYSIS 1: CLIMATE AND VEGETATION PRODUCTIVITY TRENDS AND INTER-RELATIONSHIPS
 
-# Author: Jack Thorley (jbt27@cam.ac.uk)
 # Produced using R version 4.2.2
 
 ###############################################################

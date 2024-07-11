@@ -2,8 +2,7 @@
 
 # R Script for "Environmental change and population regulation in Kalahari meerkats"
 
-# ANALYIS 3: MODELLING THE EFFECTS OF CLIMATE ON DEMOGRAPHIC PARAMETERS
-# Author: Jack Thorley (jbt27@cam.ac.uk)
+# ANALYSIS 3: MODELLING THE EFFECTS OF CLIMATE ON DEMOGRAPHIC PARAMETERS
 # Produced using R version 4.2.2
 
 ###############################################################

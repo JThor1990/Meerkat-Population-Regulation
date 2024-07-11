@@ -2,8 +2,7 @@
 
 # R Script for "Environmental change and population regulation in Kalahari meerkats"
 
-# ANALYIS 4: MODELLING GROUP EXTINCTIONS
-# Author: Jack Thorley (jbt27@cam.ac.uk)
+# ANALYSIS 4: MODELLING GROUP EXTINCTIONS
 # Produced using R version 4.2.2
 
 ###############################################################

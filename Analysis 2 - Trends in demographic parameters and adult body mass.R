@@ -2,8 +2,7 @@
 
 # R Script for "Environmental change and population regulation in Kalahari meerkats"
 
-# ANALYIS 2: TRENDS IN DEMOGRAPHIC PARAMETERS AND ADULT BODY MASS
-# Author: Jack Thorley (jbt27@cam.ac.uk)
+# ANALYSIS 2: TRENDS IN DEMOGRAPHIC PARAMETERS AND ADULT BODY MASS
 # Produced using R version 4.2.2
 
 ###############################################################
