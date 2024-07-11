@@ -9,7 +9,7 @@ The aim of the study was to explore the relative impact of variation in rainfall
   <figcaption></figcaption>
 </figure>  
   
-The analyses are split into four distinct R scripts.  
+The analyses are contained within four R scripts.  
 
 **(1) Analysis 1 - Climate and vegetation productivity trends and relationships.R**  
 **(2) Analysis 2 - Trends in demographic parameters and adult body mass.R**  
