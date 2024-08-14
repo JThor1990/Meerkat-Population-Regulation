@@ -575,8 +575,7 @@ setwd("INSERT FILE PATH")
     filter(year >= 1998) %>% 
     filter(month %in% 9:11) %>% 
     group_by(year) %>% 
-    summarise(season_rain = sum(rain_onsite, na.rm = T), 
-              season_over5mm = sum(rain_onsite >= 5, na.rm = T)) %>% 
+    summarise(season_rain = sum(rain_onsite, na.rm = T)) %>% 
     data.frame()
   
   # Mann-Kendall test on early summer rainfall 
@@ -586,9 +585,6 @@ setwd("INSERT FILE PATH")
   # Onsite  (total)
   mk.test(earlysummer_rain_reserve$season_rain) 
   sens.slope(earlysummer_rain_reserve$season_rain)
-  # Onsite (rainfall events)
-  mk.test(earlysummer_rain_reserve$season_over5mm) 
-  sens.slope(earlysummer_rain_reserve$season_over5mm)
   
   # SPEI-6 trends (estimated using site-measured rainfall: the shorter time series)
   mk.test(speidat$SPEI_6[!is.na(speidat$SPEI_6)]) 
